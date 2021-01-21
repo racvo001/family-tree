@@ -1,4 +1,4 @@
-###### This project is built with Maven and uses Java 11 project
+**This project is built with Maven and uses Java 11 project**
 
 The project consists of 1 service called "FamilyService" and 1 data layer named "DataStore" that acts as a data repository layer. The database is mocked through families.json file.
 
