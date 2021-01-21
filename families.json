@@ -1,0 +1,190 @@
+[
+    {
+      "name": "John Doe",
+      "spouse": "Mary Doe",
+      "children": ["Kevin Doe"]
+    }, 
+    {
+        "name": "Mary Doe",
+        "spouse": "John Doe",
+        "children": [ "Kevin Doe","Jenny Buffer"]
+    },
+    {
+        "name": "Kevin Doe",
+        "spouse": "Joanna Doe",
+        "children": ["David Doe", "Adam Doe"]
+    },
+    {
+        "name": "Joanna Doe",
+        "spouse": "Kevin Doe",
+        "children": ["David Doe", "Adam Doe"]
+    },
+    {
+        "name": "Adam Doe",
+        "spouse": "Danielle Doe",
+        "children": ["Kelly Bufford", "Jess Trenton", "Scarlet Twinton"]
+    },
+    {
+        "name": "Danielle Doe",
+        "spouse": "Adam Doe",
+        "children": ["Kelly Bufford", "Jess Trenton"]
+    },
+    {
+        "name": "David Doe",
+        "spouse": "Monica Doe",
+        "children": ["Anna Springton", "Ethan Doe", "Jackie Doe", "Brendon Sebastianian"]
+    },
+    {
+        "name": "Monica Doe",
+        "spouse": "David Doe",
+        "children": ["Anna Springton", "Ethan Doe", "Jackie Doe"]
+    },
+    {
+        "name": "Anna Springton",
+        "spouse": "Oliver Springton",
+        "children": []
+    },
+    {
+        "name": "Oliver Springton",
+        "spouse": "Anna Springton",
+        "children": []
+    },
+    {
+        "name": "Ethan doe",
+        "spouse": "Violet Warren",
+        "children": ["Deon Doe", "Margaret Milan"]
+    },
+    {
+        "name": "Violet Warren",
+        "spouse": "Ethan Doe"
+    },
+    {
+        "name": "Jackie Doe",
+        "children": ["Zane Doe"]
+    },
+    {
+        "name": "Brendon Sebastianian",
+        "spouse": "Mason Sebastianian",
+        "children": ["Zoe Sebastianian", "Benjamin Sebastianian"]
+    },
+    {
+        "name": "Kelly Bufford",
+        "spouse": "Tristan Bufford",
+        "children": ["Luc Bufford"]
+    },
+    {
+        "name": "Tristan Bufford",
+        "spouse": "Kelly Bufford",
+        "children": ["Luc Bufford"]
+    },
+    {
+        "name": "Jess Trenton",
+        "spouse": "Gary Trenton",
+        "children": []
+    },
+    { 
+        "name": "Gary Trenton",
+        "spouse": "Jess Trenton"
+
+    },
+    {
+        "name": "Scarlet Twinton",
+        "spouse": "Dwayne Twinton",
+        "children": []
+    },
+    {
+        "name": "Dwayne Twinton",
+        "spouse": "Scarlet Twinton",
+        "children": []
+    },
+    {
+        "name": "Zoe Sebastianian"
+    },
+    {
+        "name": "Benjamin Sebastianian",
+        "spouse": "Millie Logan",
+        "children": ["Alexander Sebastianian"]
+    },
+    {
+        "name": "Alexander Sebastianian"
+    },
+    {
+        "name": "Deon Doe",
+        "spouse": "Sophia Doe",
+        "children": ["Amelia Perkinson", "Mia Doe"]
+    },
+    {
+        "name": "Sophia Doe",
+        "spouse": "Deon Doe",
+        "children": ["Amelia Perkinson", "Mia Doe", "Matthew Henkin", "Isabella Henkin"]
+    },
+    {
+        "name": "Margaret Milan",
+        "spouse": "Jacob Milan",
+        "children": ["Elijah Milan", "Charlotte Milan"]
+    },
+    {
+        "name": "Jacob Milan",
+        "spouse": "Margaret Milan",
+        "children": ["Elijah Milan", "Charlotte Milan"]
+    },
+    {
+        "name": "Amelia Perkinson",
+        "spouse": "Kevin Perkinson",
+        "children": ["James Perkinson", "Joshua Perkinson"]
+    },
+    {
+        "name": "Kevin Perkinson",
+        "spouse": "Amelia Perkinson",
+        "children": ["James Perkinson", "Joshua Perkinson"]
+    },
+    {
+        "name": "Mia Doe",
+        "spouse": "",
+        "children": ["ava Laserian", "Victoria Laserian"]
+    },
+    {
+        "name": "Kevin Laserian",
+        "spouse": "Mia Doe",
+        "children": ["Ava Laserian", "Victoria Laserian"]
+    },
+    {
+        "name": "Matthew Henkin",
+        "spouse": "Madison Henkin",
+        "children": ["Chloe Henkin"]
+    },
+    {
+        "name": "Madison Henkin",
+        "spouse": "Matthew Henkin"
+    },
+    {
+        "name": "Isabella Henkin",
+        "spouse": "Jackson Smith",
+        "children": ["Grace Smith"]
+    },
+    {
+        "name": "Jackson Smith",
+        "spouse": "Isabella Smith",
+        "children": ["Grace Smith"]
+    },
+    {
+        "name": "Elijah Milan",
+        "spouse": "Lily Milan",
+        "children": ["Zoe Milan", "Penelope Milan", "Stella Milan"]
+    },
+    {
+        "name": "Lily Milan",
+        "spouse": "Elijah Milan",
+        "children": ["Zoe Milan", "Penelope Milan", "Stella Milan", "Nora Brenkins"]
+    },
+    {
+        "name": "Daniel Peterson",
+        "spouse": "Charlotte Milan",
+        "children": ["Hazel Peterson", "Aurora Peterson"]
+    },
+    {
+        "name": "Charlotte Milan",
+        "spouse": "Daniel Peterson",
+        "children": ["Hazel Peterson", "Aurora Peterson"]
+    }
+  ]
