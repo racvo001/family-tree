@@ -1,7 +1,7 @@
-package com.interviewcode.service;
+package com.familytree.service;
 
-import com.interviewcode.data.DataStore;
-import com.interviewcode.data.Person;
+import com.familytree.data.DataStore;
+import com.familytree.data.Person;
 
 public class FamilyServiceImpl implements FamilyService {
     private DataStore ds;

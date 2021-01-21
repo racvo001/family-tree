@@ -1,4 +1,4 @@
-package com.interviewcode.data;
+package com.familytree.data;
 
 public class Person {
 	private String name;

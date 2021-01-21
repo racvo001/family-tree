@@ -1,9 +1,9 @@
-package com.interviewcode;
+package com.familytree;
 import java.util.Scanner;
 
-import com.interviewcode.data.DataStore;
-import com.interviewcode.service.FamilyService;
-import com.interviewcode.service.FamilyServiceImpl;
+import com.familytree.data.DataStore;
+import com.familytree.service.FamilyService;
+import com.familytree.service.FamilyServiceImpl;
 
 /**
  * main class
