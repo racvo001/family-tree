@@ -38,11 +38,10 @@ public class DataStore {
 		List<Person> grandChildren = new ArrayList<>();
 
 		Person person = getPersonByName(name);
-		if (null != person) {
-			for (String child : person.getChildren()) {
-				grandChildren.add(getPersonByName(child));
-			}
+		for (String child : person.getChildren()) {
+			grandChildren.add(getPersonByName(child));
 		}
+		
 		return grandChildren;
 	}
 
