@@ -27,7 +27,7 @@ public class DataStore {
 	}
 
 	public Person getPersonByName(String name) {
-		return this.persons.stream().filter(person -> person.getName().equalsIgnoreCase(name)).findFirst().orElse(null);
+		return this.persons.stream().filter(person -> person.getName().equals(name)).findFirst().orElse(null);
 	}
 
 	public String[] getPersonChildren(String name) {
