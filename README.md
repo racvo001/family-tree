@@ -2,12 +2,12 @@
 
 The project consists of 1 service called "FamilyService" and 1 data layer named "DataStore" that acts as a data repository layer. The database is mocked through families.json file.
 
-Share screen to we can follow along.
+Share screen so we can follow along.
 Clone the project's code, import it into your IDE of choice.
 
 ### TASK
 
-When you run the app, it should ask for a person's full name and then print to the console that person's family tree, aka person's descendants (person's children, grandchildren, great-grandchildren, etc.). It shouls 
+When you run the app, it should ask for a person's full name and then print to the console that person's family tree, aka person's descendants (person's children, grandchildren, great-grandchildren, etc.). 
 The order in which the descendants should be printed is irrelevant.
 
 You are allowed to change any code you see fit other than the "database" itself - families.json.
