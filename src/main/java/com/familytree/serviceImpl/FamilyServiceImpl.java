@@ -16,16 +16,28 @@ public class FamilyServiceImpl implements FamilyService {
 
 	@Override
 	public void getDescendants(String personName) {
+		
+		Person p = ds.getPersonByName(personName);
+		if (!hasChildren(p))
+			return;
+		
 		String[] childrens;
 		childrens = ds.getPersonChildren(personName);
 		for (String s : childrens) {
 			System.out.println("Child: " + s);
+			
 			List<Person> grandChildren = new ArrayList<>();
 			grandChildren = ds.getPersonGrandChildren(s);
 			for (int i = 0; i < grandChildren.size(); i++) {
 				System.out.println("GrandChild: " + grandChildren.get(i).getName());
 			}
+			
+			getDescendants(s);
 		}
+		
+		
+		
+		
 
 	}
 
