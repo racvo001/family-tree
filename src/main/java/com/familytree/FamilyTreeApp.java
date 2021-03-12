@@ -1,9 +1,11 @@
 package com.familytree;
+
+
 import java.util.Scanner;
 
 import com.familytree.data.DataStore;
 import com.familytree.service.FamilyService;
-import com.familytree.service.FamilyServiceImpl;
+import com.familytree.serviceImpl.FamilyServiceImpl;
 
 /**
  * main class
@@ -17,8 +19,19 @@ public class FamilyTreeApp {
         System.out.println("Enter a person's full name whose family tree to print: ");
         String personName = reader.nextLine();
         System.out.println(personName + "'s' descendants are: ");
+        
+        try
+        {
         fs.getDescendants(personName);
+        }
+        catch(Exception e)
+        {
+        	System.out.println("Exception Raised-Please cheeck the input data: "+e);
+        }
+        
 
+        finally {
         reader.close();
+        }
     }
 }
